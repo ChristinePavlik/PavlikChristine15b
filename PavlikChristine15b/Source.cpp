@@ -6,11 +6,12 @@ CIS 1202 501
 #include <iostream>
 #include <cmath>
 using namespace std;
-///////////////////////////////////////////
+//This is for the doubles and floats
 template <class T>
 T half(T number) {
 	return number / 2;
 }
+//This is for ints
 template <>
 int half(int number) {
 	float num = static_cast<float>(number);
